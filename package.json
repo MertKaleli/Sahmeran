@@ -1,0 +1,34 @@
+{
+  "name": "Asistan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "chalk": "^4.0.0",
+    "discord-anti-spam-tr": "^0.7.4",
+    "discord-leveling": "^1.1.0",
+    "discord.js": "^12.2.0",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg-static": "^4.2.2",
+    "fs": "0.0.1-security",
+    "genius-lyrics": "^3.0.0",
+    "hastebin-gen": "^2.0.5",
+    "jimp": "^0.12.0",
+    "moment": "^2.25.3",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "quick.db": "^7.1.1",
+    "randomstring": "^1.1.5",
+    "simple-youtube-api": "^5.2.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^3.1.0",
+    "ytdl-core-discord": "^1.2.0"
+  }
+}
