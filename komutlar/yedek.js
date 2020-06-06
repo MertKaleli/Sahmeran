@@ -219,7 +219,7 @@ exports.run = async (client, message, args) => {
             .setThumbnail(backups[message.author.id][id].icon)
             .addField(
               "Oluşturan",
-              `<@${backups[message.author.id][id].owner}>`,
+              `<@${backups[message.author.id][id]}>`,
               true
             )
             .addField(
