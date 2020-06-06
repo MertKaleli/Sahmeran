@@ -218,8 +218,8 @@ exports.run = async (client, message, args) => {
             .setTitle(backups[message.author.id][id].name)
             .setThumbnail(backups[message.author.id][id].icon)
             .addField(
-              "Oluşturan",
-              `<@${backups[message.author.id][id]}>`,
+              "Sunucu Sahibi",
+              `<@${backups[message.author.id][id].owner}>`,
               true
             )
             .addField(
@@ -263,7 +263,7 @@ exports.run = async (client, message, args) => {
                 .setTitle(backups[message.author.id][id].name)
                 .setThumbnail(backups[message.author.id][id].icon)
                 .addField(
-                  "Oluşturan",
+                  "Sunucu Sahibi",
                   `<@${backups[message.author.id][id].owner}>`,
                   true
                 )
