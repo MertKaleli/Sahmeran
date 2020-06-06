@@ -1547,8 +1547,8 @@ client.on('message', async msg => {
   const yourID = "676916504528158721"; 
 const setupCMD = "prefix + isim belirleyiniz örn: !!renklirol" 
 let initialMessage = `**Yazılara değil emojilere basınız**`; 
-const roles = ["C - Verified", "🔑"]; 
-const reactions = ["🔴", "🔑"];
+const roles = ["JS"]; 
+const reactions = ["718623182629765270"];
 
 //If there isn't a reaction for every role, scold the user!
 if (roles.length !== reactions.length) throw "Roles list and reactions list are not the same length!";
