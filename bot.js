@@ -753,7 +753,7 @@ if(command === 'iskanal') {
 if(command === 'rols') {
   if(message.member.hasPermission("ADMINISTRATOR")) {
   let is10 = message.mentions.roles.first()
-  if(!is10) return message.reply("Bir Kanal Belirtmen Gerekli!")       
+  if(!is10) return message.reply("Bir Rol Belirtmen Gerekli!")       
 
       db.set(`rolss_${message.guild.id}`, is10.id)
       message.channel.send("Rol Ayarlandı:  " + is10 + "").then(msg => {
@@ -819,8 +819,8 @@ if(command === 'msm') {
    if (kontrolsdd == "aç") {
     const embed532= new Discord.MessageEmbed()
     .setColor(0xdb710d)
-    .setAuthor("Bot Koruma Sistemi")
-    .setDescription("Hatalı Kullanım: !bk aç & kapat Şeklinde Kullanabilirsiniz")
+    .setAuthor("Mesaj Silme Koruma Sistemi")
+    .setDescription("Hatalı Kullanım: !msm aç & kapat Şeklinde Kullanabilirsiniz")
     .setTimestamp()
     .setFooter("Sistem | Hatalı Komut Algılandı")
 

@@ -60,5 +60,5 @@ exports.conf = {
 exports.help = {
   name: 'güvenliksistemi',
   description: 'taslak', 
-  usage: '!gs [KanalEtiket]'
+  usage: 'gs'
 };
