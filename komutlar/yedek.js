@@ -296,7 +296,7 @@ exports.run = async (client, message, args) => {
         let warningEmbed = new MessageEmbed() .setTitle(`${warning} UYARI`)
           .setDescription(`Tüm yedeklerini silmeye emin misin?
 ___Bu işlem geri alınamaz!__`);
-        message.channel.sendEmbed(warningEmbed).then(msg => {
+        message.channel.send(warningEmbed).then(msg => {
           msg.react("✅").then(() => msg.react("❌"));
 
           let yesFilter = (reaction, user) =>
